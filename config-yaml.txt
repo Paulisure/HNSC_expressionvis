@@ -1,0 +1,32 @@
+# Data paths
+preprocessed_tiles_dir: "C:/yap/Preprocessed_Tiles"
+ground_truth_file: "C:/genes/GROUND TRUTH.xlsx"
+
+# Model parameters
+model:
+  name: "resnet101"
+  num_classes: 1
+
+# Training parameters
+training:
+  batch_size: 16
+  learning_rate: 0.0001
+  num_epochs: 70
+  patience: 35
+
+# Augmentation parameters
+augmentation:
+  resize: [224, 224]
+  rotation_degrees: 20
+  color_jitter:
+    brightness: 0.2
+    contrast: 0.2
+    saturation: 0.2
+    hue: 0.1
+
+# Evaluation parameters
+evaluation:
+  threshold: 0.5
+
+# Logging
+log_dir: "C:/Transcriptome/Logs"
