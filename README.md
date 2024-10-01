@@ -7,7 +7,8 @@ This project aims to predict gene expression in cancer types (cervical or head a
 - Data preprocessing and augmentation
 - Modified ResNet101 model implementation
 - Hyperparameter tuning
-- Model evaluation with various metrics (AUROC, Precision, Recall, F1 Score)
+- Model evaluation with various metrics (AUR[Uploading config-yaml.txt…]()
+OC, Precision, Recall, F1 Score)
 - Visualization of results and model embeddings
 
 ## Requirements
@@ -27,6 +28,7 @@ This project aims to predict gene expression in cancer types (cervical or head a
    ```
    pip install -r requirements.txt
    ```
+
 
 ## Usage
 1. Prepare your data:
