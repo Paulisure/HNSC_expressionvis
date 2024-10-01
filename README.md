@@ -40,6 +40,7 @@ The model achieves state-of-the-art performance in predicting expressions lying 
 
 ## Data Structure
 DesiredGene(Replace with your gene)-expression-prediction/
+
 ├── data/
 │   └── Preprocessed_Tiles/
 ├── models/
