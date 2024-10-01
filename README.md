@@ -1,4 +1,4 @@
-# Yap1 Expression Prediction in Cervical Cancer using Deep Learning
+# Gene Expression Prediction in Multiple cancer types using Deep Learning
 
 ## Project Overview
 This project aims to predict gene expression in cancer types (cervical or head and neck in this case) using deep learning techniques. It utilizes a modified ResNet101 architecture to analyze histopathological images and predict gene expression levels.
