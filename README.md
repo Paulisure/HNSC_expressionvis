@@ -43,27 +43,36 @@ The model achieves state-of-the-art performance in predicting expressions lying 
 ## Data Structure
 DesiredGene(Replace with your gene)-expression-prediction/
 
+yap1-expression-prediction/
+│
 ├── data/
 │   └── Preprocessed_Tiles/
+│
 ├── models/
 │   └── best_model.pth
+│
 ├── notebooks/
 │   └── Yap1_Expression_Prediction.ipynb
+│
 ├── src/
 │   ├── __init__.py
 │   ├── data_processing.py
 │   ├── model.py
 │   ├── train.py
 │   └── evaluate.py
+│
 ├── tests/
 │   ├── __init__.py
 │   ├── test_data_processing.py
 │   ├── test_model.py
 │   └── test_evaluate.py
+│
 ├── utils/
 │   └── visualization.py
+│
 ├── .gitignore
 ├── config.yaml
 ├── README.md
 ├── requirements.txt
+└── setup.py
 └── setup.py
