@@ -23,7 +23,7 @@ The model was set to train for up to 70 epochs, but with an early stopping mecha
 
 The dataset comprised 757 samples which were converted into 1514 1024x1024 tiles. These tiles were then stratified into a training set of 1060 tiles (70%), an evaluation set of 151 tiles (10%) and a testing cohort of 303 tiles (20%), based on predefined criteria. After training, the model achieved an Area Under the Receiver Operating Characteristic (AUROC) of 0.9383, showcasing high accuracy in distinguishing between the classes. The model demonstrated a Precision (Positive Predictive Value) of 0.8780 and Recall (Sensitivity) of 0.8727, with a Specificity of 0.8925 and an F1 Score of 0.8754. The Negative Predictive Value (NPV) stood at 0.9125.
 
-The trained model was leveraged to predict outcomes for the testing cohort, providing insights into the prognostic value of the model in practical scenarios using different test sets from other cancert types.
+The trained model was leveraged to predict outcomes for the testing cohort, providing insights into the prognostic value of the model in practical scenarios using different test sets from other cancer types.
 
 ![image](https://github.com/user-attachments/assets/37e74bfc-f970-4253-b3ff-b3d38bf6a201)
 
